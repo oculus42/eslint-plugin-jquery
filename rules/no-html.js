@@ -11,7 +11,7 @@ module.exports = function(context) {
       if (utils.isjQuery(node)) {
         context.report({
           node: node,
-          message: 'Prefer innerHTML to $.html'
+          message:  '$.html() may allow unsafe content'
         })
       }
     }
