@@ -6,7 +6,7 @@ const RuleTester = require('eslint').RuleTester
 const error = 'Prefer innerHTML to $.html'
 
 const ruleTester = new RuleTester()
-ruleTester.run('no-html', rule, {
+ruleTester.run('no-jquery-html', rule, {
   valid: [
     'html()',
     '[].html()',
