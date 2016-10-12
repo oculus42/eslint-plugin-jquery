@@ -1,19 +1,24 @@
 {
-  "name": "eslint-plugin-jquery",
-  "version": "1.0.1",
-  "description": "Disallow jQuery functions with native equivalents.",
-  "repository": "dgraham/eslint-plugin-jquery",
+  "name": "eslint-plugin-various",
+  "version": "1.0.0",
+  "description": "Linting rules for basic XSS and other code quality silliness.",
+  "repository": "oculus42/eslint-plugin-various",
   "license": "MIT",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "David Graham",
+  "author": "Samuel Rouse, forked from David Graham",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter dot tests/"
   },
+  "keywords": [
+    "eslint",
+    "xss",
+    "quality"
+  ],
   "peerDependencies": {
     "eslint": ">=2.3.0"
   },
