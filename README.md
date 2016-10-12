@@ -1,6 +1,10 @@
+[![Build Status](https://travis-ci.org/oculus42/eslint-plugin-various.svg?branch=master)](https://travis-ci.org/oculus42/eslint-plugin-various)
+
+
 # eslint-plugin-various
 
-Disallow various functions for XSS and code quality reasons.
+Disallow various functions for XSS and code quality reasons.  
+Forked from [eslint-plugin-jquery](https://github.com/dgraham/eslint-plugin-jquery).
 
 ## Installation
 
@@ -29,7 +33,7 @@ Add `various` to the plugins section of your `.eslintrc` configuration file. You
   ],
   "rules": {
     "various/no-jquery-html": 1,
-    "various/empty-html": 2
+    "various/no-empty-jquery-html": 2
   }
 }
 ```
